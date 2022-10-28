@@ -3,10 +3,17 @@ package oop.part4.transport;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Car extends Transport implements Competing {
+    public enum BodyTypes {
+        sedan, hatchback, coupe, stationWagon, suv, crossover, pickupTruck, van, minivan;
+
+
+
+
+    }
+
     public Car(String brand, String model, float engineVolume) {
         super(brand, model, engineVolume);
     }
-
 
     @Override
     public void startMovement() {

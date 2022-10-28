@@ -3,6 +3,7 @@ package oop.part4;
 import oop.part4.driver.DriverB;
 import oop.part4.transport.Car;
 import oop.part4.transport.Transport;
+import oop.part4.transport.Truck;
 
 public class HomeworkOOP4 {
     public static void main(String[] args) {
@@ -16,5 +17,8 @@ public class HomeworkOOP4 {
         car.pitStop();
         System.out.println("car.getBestLapTime() = " + car.getBestLapTime());
         System.out.println("car.getMaxSpeed() = " + car.getMaxSpeed());*/
+
+        System.out.println(Car.bodyTypes.crossover);
+        System.out.println(Truck.loadCapacityType.N1);
     }
 }
