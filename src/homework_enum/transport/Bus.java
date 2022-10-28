@@ -3,11 +3,11 @@ package homework_enum.transport;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Bus extends Transport implements Competing {
-    public enum CapacityType {especiallySmall, small, average, large, especiallyLarge,}
+    private final PassengerCapacity passengerCapacity;
 
-
-    public Bus(String brand, String model, float engineVolume) {
+    public Bus(String brand, String model, float engineVolume, PassengerCapacity passengerCapacity) {
         super(brand, model, engineVolume);
+        this.passengerCapacity = passengerCapacity;
     }
 
     @Override
@@ -24,6 +24,15 @@ public class Bus extends Transport implements Competing {
                 this.getBrand(),
                 this.getModel());
         System.out.println();
+    }
+
+    @Override
+    public void printType() {
+        if (this.passengerCapacity != null) {
+            System.out.println(this.passengerCapacity);
+        } else {
+            System.out.println("Информации недостаточно");
+        }
     }
 
     @Override
