@@ -1,19 +1,10 @@
+/*
 package oop.part4.transport;
 
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Truck extends Transport implements Competing {
-    public enum loadCapacityType {
-        N1(),
-        N2(),
-        N3();
 
-        private final float weight;
-
-        loadCapacityType(float weight) {
-            this.weight = weight;
-        }
-    }
 
 
     public Truck(String brand, String model, float engineVolume) {
@@ -52,3 +43,4 @@ public class Truck extends Transport implements Competing {
         return ThreadLocalRandom.current().nextInt(1, 400);
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package oop.part3.transport;
 
 public class Bus extends Transport {
@@ -13,3 +14,4 @@ public class Bus extends Transport {
         System.out.println("Объект класса bus " + super.getBrand() + " " + super.getModel() + " " + super.getBodyColor() + " заправлен  бензином или дизелем на заправке");
     }
 }
+*/

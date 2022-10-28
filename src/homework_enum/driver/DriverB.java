@@ -1,6 +1,6 @@
 package homework_enum.driver;
 
-import oop.part4.transport.Car;
+import homework_enum.transport.Car;
 
 public class DriverB extends Driver<Car> {
 

@@ -1,3 +1,4 @@
+/*
 package oop.part4.transport;
 
 public interface Competing {
@@ -7,3 +8,4 @@ public interface Competing {
 
     int getMaxSpeed();
 }
+*/

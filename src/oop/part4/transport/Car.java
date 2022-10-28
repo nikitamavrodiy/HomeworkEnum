@@ -1,3 +1,4 @@
+/*
 package oop.part4.transport;
 
 import java.util.concurrent.ThreadLocalRandom;
@@ -49,3 +50,4 @@ public class Car extends Transport implements Competing {
         return ThreadLocalRandom.current().nextInt(1, 400);
     }
 }
+*/

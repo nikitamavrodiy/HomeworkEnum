@@ -1,3 +1,4 @@
+/*
 package oop.part3.transport;
 
 public class Train extends Transport {
@@ -70,3 +71,4 @@ public class Train extends Transport {
         System.out.println("Объект класса train " + super.getBrand() + " " + super.getModel() + " заправлен двигателем");
     }
 }
+*/

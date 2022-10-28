@@ -1,3 +1,4 @@
+/*
 package oop.part4.driver;
 
 import oop.part4.transport.Car;
@@ -8,3 +9,4 @@ public class DriverB extends Driver<Car> {
         super(fullName, "B", driveExperience, car);
     }
 }
+*/

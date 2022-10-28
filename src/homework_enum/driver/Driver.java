@@ -1,6 +1,6 @@
 package homework_enum.driver;
 
-import oop.part4.transport.Transport;
+import homework_enum.transport.Transport;
 
 public abstract class Driver<T extends Transport> {
 

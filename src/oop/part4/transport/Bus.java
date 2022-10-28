@@ -1,6 +1,7 @@
 package oop.part4.transport;
 
 import java.util.concurrent.ThreadLocalRandom;
+/*
 
 public class Bus extends Transport implements Competing {
     public enum CapacityType {especiallySmall, small, average, large, especiallyLarge,}
@@ -44,3 +45,4 @@ public class Bus extends Transport implements Competing {
         return ThreadLocalRandom.current().nextInt(1, 400);
     }
 }
+*/

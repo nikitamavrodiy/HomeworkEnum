@@ -1,4 +1,5 @@
-/*package oop.part3;
+/*
+package oop.part3;
 
 import oop.part3.Animals.*;
 import oop.part3.transport.Bus;

@@ -1,6 +1,6 @@
 package homework_enum.driver;
 
-import oop.part4.transport.Bus;
+import homework_enum.transport.Bus;
 
 public class DriverD extends Driver<Bus> {
     public DriverD(String fullName, int driveExperience, Bus car) {

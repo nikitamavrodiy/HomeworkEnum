@@ -1,3 +1,4 @@
+/*
 package oop.part4.transport;
 
 public abstract class Transport {
@@ -27,3 +28,4 @@ public abstract class Transport {
         return engineVolume;
     }
 }
+*/

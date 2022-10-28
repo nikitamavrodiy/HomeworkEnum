@@ -1,3 +1,4 @@
+/*
 package oop.part3.transport;
 
 import java.time.LocalDate;
@@ -191,3 +192,4 @@ public class Car extends Transport {
         }
     }
 }
+*/
