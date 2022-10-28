@@ -1,3 +1,4 @@
+/*
 package oop.part4;
 
 import oop.part4.driver.DriverB;
@@ -7,7 +8,8 @@ import oop.part4.transport.Truck;
 
 public class HomeworkOOP4 {
     public static void main(String[] args) {
-        /*car = new Car("bmw","x5", 1.5f);
+        */
+/*car = new Car("bmw","x5", 1.5f);
         DriverB driverB = new DriverB("Test", 5, car);
         System.out.println(driverB);
 
@@ -19,6 +21,7 @@ public class HomeworkOOP4 {
         System.out.println("car.getMaxSpeed() = " + car.getMaxSpeed());
 
         System.out.println();
-        System.out.println();*/
+        System.out.println();*//*
+
     }
-}
+}*/

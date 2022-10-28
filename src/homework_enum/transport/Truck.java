@@ -3,19 +3,11 @@ package homework_enum.transport;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Truck extends Transport implements Competing {
-    public enum loadCapacityType {
-        N1(1.2f), N2(1.2f), N3(1.2f);
+    private final CarriageCapacity carriageCapacity;
 
-        private final float weight;
-
-        loadCapacityType(float weight) {
-            this.weight = weight;
-        }
-    }
-
-
-    public Truck(String brand, String model, float engineVolume) {
+    public Truck(String brand, String model, float engineVolume, CarriageCapacity carriageCapacity) {
         super(brand, model, engineVolume);
+        this.carriageCapacity = carriageCapacity;
     }
 
     @Override
@@ -30,6 +22,15 @@ public class Truck extends Transport implements Competing {
         System.out.printf("Truck %s %s stopped moving",
                 this.getBrand(), this.getModel());
         System.out.println();
+    }
+
+    @Override
+    public void printType() {
+        if (this.carriageCapacity != null) {
+            System.out.println(this.carriageCapacity);
+        } else {
+            System.out.println("Информации недостаточно");
+        }
     }
 
     @Override

@@ -3,16 +3,10 @@ package homework_enum.transport;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class Car extends Transport implements Competing {
-    public enum BodyTypes {
-        sedan, hatchback, coupe, stationWagon, suv, crossover, pickupTruck, van, minivan;
-
-
-
-
-    }
-
-    public Car(String brand, String model, float engineVolume) {
+    private final BodyType bodyType;
+    public Car(String brand, String model, float engineVolume, BodyType bodyType) {
         super(brand, model, engineVolume);
+        this.bodyType = bodyType;
     }
 
     @Override
@@ -29,6 +23,15 @@ public class Car extends Transport implements Competing {
                 this.getBrand(),
                 this.getModel());
         System.out.println();
+    }
+
+    @Override
+    public void printType() {
+        if (this.bodyType != null) {
+            System.out.println(bodyType);
+        } else {
+            System.out.println("Информации недостаточно");
+        }
     }
 
     @Override
